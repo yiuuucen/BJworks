@@ -1,0 +1,77 @@
+.container{
+    width: 1000px;
+    height: 1584px;
+    margin: 0 auto;
+}
+/*.container>div{*/
+    /*width: 924px;*/
+    /*height: 34px;*/
+    /*margin-left: 37px;*/
+    /*background: url("../img/jiazheng.png");*/
+/*}*/
+.container>div:nth-of-type(1){
+    width: 924px;
+    height: 34px;
+    margin: 36px 0 0 37px;
+    background: url("../img/jiazheng.png");
+}
+.container>div:nth-of-type(2){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/yuesao.png");
+}
+.container>div:nth-of-type(3){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/baomu.png");
+}
+.container>div:nth-of-type(4){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/yuersao.png");
+}
+.container>div:nth-of-type(5){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/ptimej.png");
+}
+.container>div:nth-of-type(6){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/hugong.png");
+}
+.container>div:nth-of-type(7){
+    width: 924px;
+    height: 34px;
+    margin-left: 37px;
+    background: url("../img/baojie.png");
+}
+.container ul{
+    width: 924px;
+    height: 180px;
+    padding-left: 37px;
+}
+.container ul li{
+    width: 25%;
+    float: left;
+    margin-top: 16px;
+}
+.container ul li>div{
+    width: 4px;
+    height: 4px;
+    margin-top: 6px;
+    margin-left: 4px;
+    background: url("../img/dot.png");
+    float: left;
+}
+.container ul li>span{
+    font-size: 12px;
+    color: #333;
+    float: left;
+    padding-left: 5px;
+}

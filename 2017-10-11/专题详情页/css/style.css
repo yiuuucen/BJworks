@@ -1,0 +1,135 @@
+.clear{
+    clear: both;
+}
+/***********************************************************************************************************/
+.container{
+    width: 1000px;
+    height: 1670px;
+    margin: 0 auto;
+}
+.container .left{
+    width: 612px;
+    height: 100%;
+    margin-left: 34px;
+    float: left;
+}
+.container .left .leftTop{
+    height: 300px;
+    margin-top: 55px;
+    position: relative;
+}
+.container .left .leftTop p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:53px;
+    font-weight: bold;
+}
+.container .left .leftTop img{
+    position: absolute;
+    left: 25px;
+    top:87px;
+}
+.container .left .leftTop div{
+    box-sizing: border-box;
+    height: 163px;
+    padding:50px 0 0 25px ;
+    font-size: 14px;
+    background: rgb(244,244,244);
+    color: #7f9aa6;
+}
+
+.container .left ul{
+
+}
+.container .left ul li{
+    box-sizing: border-box;
+    height: 164px;
+    padding: 27px 0;
+}
+.container .left ul li>span:nth-child(1){
+    font-size: 16px;
+    color: #313131;
+}
+.container .left ul li>span:nth-child(2){
+    float: right;
+    font-size: 12px;
+    color: #838383;
+}
+.container .left ul li p{
+    font-size: 12px;
+    color: #6b6b6b;
+    padding-top: 22px;
+}
+.container .left ul li p span{
+    font-size: 12px;
+    color: #00bc88;
+}
+.container .left .more{
+    width: 82px;
+    height: 32px;
+    font-size: 12px;
+    color: #313131;
+    text-align: center;
+    line-height: 32px;
+    background: rgb(244,244,244);
+    float: right;
+}
+/**********************************************************************************************************/
+
+.container .right{
+    width: 273px;
+    height: 100%;
+    float: left;
+    margin-left: 44px;
+}
+.container .right .rightTop{
+    margin-top: 30px;
+    height: 340px;
+    background: rgb(236,236,236);
+    font-size: 21px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 340px;
+}
+.container .right .rightBottom{
+    margin-top: 26px;
+    height: 300px;
+}
+.container .right .rightBottom>div{
+    height: 40px;
+
+}
+.container .right .rightBottom>div>div{
+    width: 30px;
+    height: 30px;
+    background: url("../img/icon.png") 180px 0;
+    float: left;
+   margin-left: 10px;
+}
+.container .right .rightBottom>div>span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.container .right .rightBottom ul li{
+    height: 15px;
+    margin: 15px 0;
+}.container .right .rightBottom ul li:nth-child(1){
+    margin-top: 0;
+ }
+.container .right .rightBottom ul li div{
+    width: 6px;
+    height:6px;
+    background: url("../img/dot2.png");
+    float: left;
+    margin-top: 6px;
+}
+.container .right .rightBottom ul li span{
+    font-size: 12px;
+    padding-left: 10px;
+    color: #333;
+    float: left;
+}
