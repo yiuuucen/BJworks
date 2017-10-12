@@ -4,4 +4,5 @@ var s = 'Hello';
 function greet(name) {
     console.log(s + ', ' + name + '!');
 }
-greet('hucheng');
+//greet('hucheng');
+module.exports = greet;
