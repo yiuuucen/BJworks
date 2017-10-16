@@ -1,4 +1,4 @@
-// pages/hello/hello.js
+// pages/find/find.js
 Page({
 
   /**

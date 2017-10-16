@@ -1,18 +1,11 @@
-// pages/order/order.js
+// pages/work/work.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orderList:[{
-      restaurantName: "传世排骨汤饭",
-      state: "订单取消",
-      price: "12",
-      date: "2017-07-14",
-      time: "12:29:12",
-      howToDistribute: "商家"
-    }]
+  
   },
 
   /**

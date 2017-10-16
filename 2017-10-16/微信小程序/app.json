@@ -1,41 +1,48 @@
 {
-  "pages":[
-    "pages/home/home",
-    "pages/menu/menu",
-    "pages/location/location",
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/find/find",
     "pages/my/my",
-    "pages/order/order"
-   
+    "pages/work/work"
   ],
-  "window":{
-    "navigationBarTitleText": "美团外卖+",
-    "navigationBarTextStyle": "white",
-    "navigationBarBackgroundColor": "#FFC640"
+  "window": {
+    "navigationBarTitleText": "AAAAAAAA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "red",
+    "onReachBottomDistance":"200px",
+    "enablePullDownRefresh": "true",
+    "backgroundColor":"pink"
   },
   "tabBar": {
-    "color": "#272636",
-    "selectedColor": "#FFD161",
-    "backgroundColor": "#fff",
-    "borderStyle": "#a8a8a8",
+    "color": "#999",
+    "selectedColor": "rgb(91,126,222)",
+    "backgroundColor": "rgb(250,250,250)",
+    "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/home/home",
-        "iconPath": "pages/images/home.png",
-        "selectedIconPath": "pages/images/home-selected.png",
-        "color":"white",
-        "text": "首页"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/order/order",
-        "iconPath": "pages/images/order.png",
-        "selectedIconPath": "pages/images/order-selected.png",
-        "text": "订单"
+        "pagePath": "pages/work/work",
+        "text": "工作台",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "",
+        "selectedIconPath": ""
       },
       {
         "pagePath": "pages/my/my",
-        "iconPath": "pages/images/my.png",
-        "selectedIconPath": "pages/images/my-selected.png",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
       }
     ]
   }
