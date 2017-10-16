@@ -1,1 +1,1 @@
-https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/data.html
+https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/
