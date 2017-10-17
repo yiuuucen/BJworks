@@ -3,7 +3,7 @@ var app = getApp();
 App({
   onLaunch: function() {
     wx.getLocation({
-      //type: 'gcj02',
+      type: 'gcj02',
       success: function (res) {
         var latitude = res.latitude
         var longitude = res.longitude
