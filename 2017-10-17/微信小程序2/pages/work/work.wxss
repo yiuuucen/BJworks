@@ -1,0 +1,35 @@
+page{
+  font-size: 30rpx;
+  background: #ECECEC;
+}
+.content .kuai{
+  margin: 20rpx 0;
+}
+.content .kuai .coupon,.content .kuai .address,.content .kuai .tel,
+.content .kuai .agency,.content .kuai .dynamic,.content .kuai .notice,
+.content .kuai .room{
+  display: flex;
+  flex-flow: row nowarp;
+  justify-content:flex-start;
+  align-items: center;
+  background: white;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 15rpx; 
+}
+.content .kuai .coupon image{
+   width: 70rpx;
+   height: 70rpx; 
+}
+.content .kuai .coupon .wenzi{
+  width: 600rpx;
+  margin-left: 20rpx;  
+  border-bottom:1rpx solid rgb(236,236,236); 
+}
+.content .kuai .coupon .more{
+  color: #999;
+  border-bottom:1rpx solid rgb(236,236,236); 
+}
+.content .signOut{
+  text-align: center;
+}

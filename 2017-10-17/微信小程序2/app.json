@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/my/my",
+    "pages/work/work"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle":"black",
+    "onReachBottomDistance":"200px",
+    "enablePullDownRefresh": "true",
+    "backgroundColor":"pink"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "rgb(91,126,222)",
+    "backgroundColor": "rgb(250,250,250)",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "工作台",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  }
+}

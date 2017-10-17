@@ -1,0 +1,28 @@
+<!-- 这里面需要注意的是单个页面对应的json只能设置window属性，不能设置其他的比如上面代码里面的page属性和以及tabBar等，所以不需要写window，直接写window对应的属性就好了 -->
+<view class="container">
+  <!-- <view class="header">
+    <view class="userImg"></view>
+    <view class="userName">tzc123</view>
+  </view> -->
+  <view class="content">
+    <view class="kuai">
+      <view class="coupon">
+        <image src='../img/work/my.png'></image>
+        <view class='wenzi'>我的好友</view>
+        <view class='more'>></view> 
+      </view>
+      <view class="address">我的团队</view>
+      <view class="tel">我的客户</view>
+    </view>
+    
+    <view class='kuai'>
+      <view class="agency">代办</view>
+      <view class="dynamic">动态</view>
+      <view class="notice">通知</view>
+    </view>
+
+    <view class='kuai'>
+      <view class='room'>空中课堂</view>
+    </view>
+  </view>
+</view>
