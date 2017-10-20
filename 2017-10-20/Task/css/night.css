@@ -1,0 +1,37 @@
+.day-hidden{
+    display: block;
+}
+.night-hidden{
+    display: none;
+}
+
+.night-foot{
+    position: fixed;
+    z-index: 9998;
+    width: 7.5rem;
+    height: 0.86rem;
+    left: 50%;
+    bottom: 0;
+    margin-left: -3.75rem;
+    display: flex;
+    background: #12B37D;
+}
+.night-foot a{
+    flex: 1;
+    text-align: center;
+    line-height: 0.86rem;
+    color: #fff;
+}
+
+.cost-bag{
+    width: 3.9rem;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.night-customer-btn{
+    width: 2.75rem;
+    height: 0.43rem;
+    margin-top: 0.15rem;
+}
